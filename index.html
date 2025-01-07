@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Fazar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Fazar</h1>
+        <div class="matrix-input">
+            <h2>Matriks A</h2>
+            <input type="number" id="a11" placeholder="a11">
+            <input type="number" id="a12" placeholder="a12">
+            <input type="number" id="a21" placeholder="a21">
+            <input type="number" id="a22" placeholder="a22">
+        </div>
+        <div class="matrix-input">
+            <h2>Matriks B</h2>
+            <input type="number" id="b11" placeholder="b11">
+            <input type="number" id="b12" placeholder="b12">
+            <input type="number" id="b21" placeholder="b21">
+            <input type="number" id="b22" placeholder="b22">
+        </div>
+        <div class="operations">
+            <button onclick="addMatrices()">Tambah</button>
+            <button onclick="subtractMatrices()">Kurang</button>
+            <button onclick="multiplyMatrices()">Kali</button>
+        </div>
+        <h2>Hasil</h2>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
